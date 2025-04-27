@@ -1,0 +1,94 @@
+
+html {
+
+}
+
+:root {
+    --main-c:rgb(29, 29, 29);
+    --text-c:rgb(245, 245, 245);
+    --accent-c:rgb(13, 20, 202);
+    --sec-c:rgb(40, 40, 40);
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+header {
+    display: flex;
+    background-color: var(--main-c);
+    color: var(--text-c);
+    justify-content: left;
+}
+
+header > h1 {
+    margin: 5px;
+}
+
+main {
+    flex: 1;
+    background-color: var(--sec-c);
+    color: var(--text-c);
+}
+
+footer {
+    display: flex;
+    background-color: var(--main-c);
+    color: var(--text-c);
+    padding: 0px;
+}
+
+#wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+#main-icon {
+
+}
+
+#intro-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5px;
+}
+
+#intro-div-sub h2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 0;
+
+}
+
+#intro-div-sub p {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#exp-div > h2 {
+    background-color:var(--accent-c);
+    display: block;
+    margin: 0;
+    padding: 0 5px;
+}
+
+#exp-div > *:not(.exclude) {
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    display: block;
+
+}
+
+
+// #intro-div {
+//     display: flex;
+//     flex-direction: row;
+//     justify-content: space-evenly
+// }
